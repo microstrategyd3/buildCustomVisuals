@@ -1,0 +1,26 @@
+ .axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+
+
+.axis
+{
+font-size:10px;
+font-family: arial;}
+
+.charts {
+float:left;
+}
+
+.titles{
+	font-size:10px;
+    font-family: arial;
+font-weight: bold;
+
+}
+
+
