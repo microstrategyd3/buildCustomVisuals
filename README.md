@@ -2,7 +2,6 @@
 
 Files used for the tutorial can be accessed from here
 
-[screenshot]: ./cover/cover.PNG?raw=true
-![Create custom visualisations in MicroStrategy with d3.js][screenshot]
+<a href="#"><img src="https://raw.githubusercontent.com/microstrategyd3/buildCustomVisuals/master/Cover/cover.png" align="left" hspace="10" vspace="6"></a>
 
 
