@@ -2075,14 +2075,14 @@ var margin = {top: 30, right: 20, bottom: 30, left: 50},
          })
    });
    
- //find the maximum value for x in our data	  
+ //find the minimum value for x in our data	  
          var x_min =      d3.min(d3.values(mydata), function(d) { 
          return d3.min(d3.values(d.sales), function(e) {
                  return parseDate(e.x);
          })
    });
    
- //find the minimum value for x in our data	    
+ //find the maximum value for x in our data	    
    var x_max =      d3.max(d3.values(mydata), function(d) { 
          return d3.max(d3.values(d.sales), function(e) {
                  return parseDate(e.x);
@@ -2141,14 +2141,12 @@ var sales = svg.append("path")
 //Add the X Axis
   svg.append("g")   
     .attr("class", "x axis")
-    //.attr("transform", "translate(" + margin.left+ "," + (height-margin.bottom) + ")")
 	.attr("transform", "translate(0," + height + ")")
     .call(xAxis);
  
   // Add the Y Axis
   svg.append("g")   
     .attr("class", "y axis")
-	//.attr("transform", "translate(" + margin.left + "," + (margin.top) + ")")
     .call(yAxis);
 
 </script>
