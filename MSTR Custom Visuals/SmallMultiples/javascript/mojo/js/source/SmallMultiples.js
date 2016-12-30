@@ -31,14 +31,14 @@ console.log('%c A custom vis used to expose the data structure exposed to the br
 
 
 
-var c = 	normalizedModel.children;				
+var MSTRdata = 	normalizedModel.children;				
 					
-	console.log(c);	
+	console.log(MSTRdata);	
 	
 	
 	
      var mydata = [];
-      c.forEach(function(d,i){
+      MSTRdata.forEach(function(d,i){
         console.log(d.name);
 		mydata[i] = {store:d.name , sales:d.children};		
       });
