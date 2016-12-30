@@ -63,7 +63,7 @@ function formatJson(json) {
 
 
 var viz = d3.select(this.domNode).select("div");
-if (viz.empty()) {viz = d3.select(this.domNode).append("div").attr("class", "viz");}
+if (viz.empty()) {viz = d3.select(this.domNode).append("div").attr("class", "NewChartviz");}
 
 
 //delete this line when you are ready to visualise your own dataset.  The below line helps show the structure of the data that has been placed on the dataset editor panel

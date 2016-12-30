@@ -56,7 +56,7 @@ console.log('%c Small multiples ready data', 'background: #0066ff; color: #bada5
 
                 if (viz.empty()) {
                     viz = d3.select(this.domNode).append("div")
-                        .attr("class", "smallMultiplesViz");
+                        .attr("class", "SmallMultiplesViz");
                 }
 
    
