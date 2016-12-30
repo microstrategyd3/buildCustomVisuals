@@ -37,9 +37,8 @@ var MSTRdata = 	normalizedModel.children;
 	
 	
 	
-     var mydata = [];
+     var mydata = []; 
       MSTRdata.forEach(function(d,i){
-        console.log(d.name);
 		mydata[i] = {store:d.name , sales:d.children};		
       });
 	
