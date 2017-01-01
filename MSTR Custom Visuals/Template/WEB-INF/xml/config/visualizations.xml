@@ -1,0 +1,5 @@
+<visualizations>
+  <visualization-list name="ajax" show-in-web="true" view-mode="51">
+    <visualization attribute-minimum="1" desc="Template" is-mojo="true" metric-minimum="1" scope="19" style-name="Template"  editor-model="plugins.Template.propsEditors.editor"/>
+  </visualization-list>
+</visualizations>
