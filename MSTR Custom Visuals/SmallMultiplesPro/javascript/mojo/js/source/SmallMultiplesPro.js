@@ -64,7 +64,7 @@ var c = 	normalizedModel.children;
 			
 //var title = d3.select(this.domNode).append("p").html("% sales").style("font-size","30px").style("text-align","center").style("font-family","calibri");
 			
-			var div = d3.select(this.domNode).append("div").attr('class','abcViz');
+			var div = d3.select(this.domNode).append("div").attr('class','viz');
 			
 			
 			

@@ -16,7 +16,7 @@
             scriptClass: "mstrmojo.plugins.Template.Template",
             cssClass: "Template",
             errorMessage: "Something isn't right...",
-            errorDetails: "This visualisation requires two attributes,  the second of which should be a date in dd/mm/yyyy format and finally one metric.",
+            errorDetails: "Give some details here about how many attributes and metrics may be needed to avoid errors.",
             externalLibraries: [{
                 url: "//cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"
             }],

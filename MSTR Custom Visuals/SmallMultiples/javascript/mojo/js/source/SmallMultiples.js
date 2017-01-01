@@ -49,7 +49,7 @@
                 var e = this;
                 d3.select(e.domNode).selectAll("div").remove();
 
-                var div = d3.select(this.domNode).append("div").attr('id', 'smallMultiplesViz');
+                var div = d3.select(this.domNode).append("div").attr('class', 'viz');
 
 
 
