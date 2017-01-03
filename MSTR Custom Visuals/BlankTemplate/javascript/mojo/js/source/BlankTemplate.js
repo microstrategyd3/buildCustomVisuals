@@ -1,6 +1,6 @@
 (function() {
-    if (!mstrmojo.plugins.Template) {
-        mstrmojo.plugins.Template = {};
+    if (!mstrmojo.plugins.BlankTemplate) {
+        mstrmojo.plugins.BlankTemplate = {};
     }
 
     mstrmojo.requiresCls(
@@ -10,11 +10,11 @@
 
 
 
-    mstrmojo.plugins.Template.Template = mstrmojo.declare(
+    mstrmojo.plugins.BlankTemplate.BlankTemplate = mstrmojo.declare(
         mstrmojo.CustomVisBase,
         null, {
-            scriptClass: "mstrmojo.plugins.Template.Template",
-            cssClass: "Template",
+            scriptClass: "mstrmojo.plugins.BlankTemplate.BlankTemplate",
+            cssClass: "BlankTemplate",
             errorMessage: "Something isn't right...",
             errorDetails: "Give some details here about how many attributes and metrics may be needed to avoid errors.",
             externalLibraries: [{
@@ -33,7 +33,7 @@
 
 
 
-                var c = normalizedModel.children;
+                var MSTRdata = normalizedModel.children;
     
                 var e = this;
                 d3.select(e.domNode).selectAll("div").remove();
@@ -67,7 +67,7 @@ function formatJson(json) {
 
 
 //delete this line when you are ready to visualise your own dataset.  The below line helps show the structure of the data that has been placed on the dataset editor panel
-div.append('pre').html(formatJson(JSON.stringify(c,null, 2)));
+div.append('pre').html(formatJson(JSON.stringify(MSTRdata,null, 2)));
 				
 				
 
